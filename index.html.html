@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julius Caesar — Character &amp; Concept Study Map</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:#f7f5f0;color:#1a1a18;padding:20px 16px 40px;min-height:100vh}
+.page-header{text-align:center;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(0,0,0,0.1)}
+.page-header h1{font-size:20px;font-weight:700;color:#1a1a18;margin-bottom:4px}
+.page-header p{font-size:13px;color:#888780;font-style:italic;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.outer{display:flex;gap:16px;align-items:flex-start;max-width:1000px;margin:0 auto}
+.map-col{flex:0 0 auto;width:430px}
+.map-col svg{width:100%;display:block}
+.panel{flex:1 1 0;min-width:0;background:#fff;border-radius:12px;border:1px solid rgba(0,0,0,0.1);padding:18px 16px;min-height:400px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow-y:auto}
+.empty{display:flex;align-items:center;justify-content:center;min-height:400px;color:#aaa;font-size:13px;text-align:center;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-style:italic}
+.pc{display:none}.pc.on{display:block}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:9px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.panel h3{font-size:16px;font-weight:700;color:#1a1a18;margin-bottom:3px;line-height:1.3}
+.tagline{font-size:12px;color:#888;margin-bottom:12px;font-style:italic}
+.panel p{font-size:13px;color:#3d3d3a;line-height:1.68;margin-bottom:9px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.panel p:last-child{margin-bottom:0}
+.sub-block{background:#f7f5f0;border:1px solid rgba(0,0,0,0.08);border-radius:8px;padding:10px 12px;margin-bottom:8px}
+.sub-block h4{font-size:12px;font-weight:700;color:#1a1a18;margin-bottom:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.sub-block p{font-size:11px;margin-bottom:0;line-height:1.6}
+.conns{margin-top:12px;padding-top:10px;border-top:1px solid rgba(0,0,0,0.08)}
+.conns h4{font-size:10px;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;margin-bottom:7px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.ci{display:flex;align-items:flex-start;gap:8px;font-size:11px;color:#444;margin-bottom:5px;line-height:1.45;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.cd{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.cw-hint{display:flex;align-items:flex-start;gap:8px;margin-top:13px;padding:8px 10px;background:#f7f5f0;border:1px solid rgba(0,0,0,0.08);border-radius:8px;font-size:11px;color:#888;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5}
+.cw-hint span{font-weight:700;color:#555}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin:14px auto 0;max-width:1000px;padding:9px 14px;background:#fff;border-radius:8px;border:1px solid rgba(0,0,0,0.08);font-size:11px;color:#555;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.li{display:flex;align-items:center;gap:5px}
+.ld{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.ll{width:18px;height:2px;flex-shrink:0}
+.ng{cursor:pointer}.ng:hover{opacity:.78;transition:opacity .15s}
+@media(max-width:700px){body{padding:12px 10px 32px}.outer{flex-direction:column;gap:0}.map-col{width:100%}.panel{position:static;max-height:none;margin-top:12px;min-height:200px;border-radius:10px}.empty{min-height:200px}.page-header h1{font-size:17px}}
+@media(max-width:480px){.panel h3{font-size:14px}.panel p{font-size:12px}}
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Julius Caesar — Character &amp; Concept Study Map</h1>
+  <p>Click any node to read its profile</p>
+</div>
+
+<div class="outer">
+<div class="map-col">
+<svg viewBox="0 0 430 980" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#1D9E75" stroke-width="1.5" stroke-linecap="round"/></marker>
+  <marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#D85A30" stroke-width="1.5" stroke-linecap="round"/></marker>
+  <marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#7F77DD" stroke-width="1.5" stroke-linecap="round"/></marker>
+  <marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round"/></marker>
+</defs>
+
+<!-- CHARACTERS BAND -->
+<rect x="8" y="6" width="414" height="18" rx="4" fill="#EEEDFE" opacity="0.7"/>
+<text x="215" y="19" text-anchor="middle" font-size="10" font-weight="600" fill="#534AB7" font-family="sans-serif">Characters</text>
+
+<!-- relationship lines -->
+<line x1="215" y1="108" x2="215" y2="168" stroke="#D85A30" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.65" marker-end="url(#a2)"/>
+<line x1="96" y1="183" x2="162" y2="193" stroke="#7F77DD" stroke-width="1.2" opacity="0.65" marker-end="url(#a3)"/>
+<line x1="322" y1="183" x2="268" y2="193" stroke="#1D9E75" stroke-width="1.2" opacity="0.65" marker-end="url(#a1)"/>
+<line x1="305" y1="204" x2="248" y2="208" stroke="#D85A30" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.55" marker-end="url(#a2)"/>
+<line x1="106" y1="200" x2="306" y2="200" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.35"/>
+<line x1="96" y1="268" x2="175" y2="222" stroke="#1D9E75" stroke-width="1.2" opacity="0.65" marker-end="url(#a1)"/>
+<line x1="338" y1="268" x2="252" y2="162" stroke="#1D9E75" stroke-width="1.2" opacity="0.65" marker-end="url(#a1)"/>
+<line x1="90" y1="90" x2="180" y2="118" stroke="#D85A30" stroke-width="1" stroke-dasharray="3 3" opacity="0.55" marker-end="url(#a2)"/>
+<line x1="360" y1="84" x2="333" y2="164" stroke="#7F77DD" stroke-width="1.2" opacity="0.65" marker-end="url(#a3)"/>
+<line x1="310" y1="290" x2="244" y2="172" stroke="#D85A30" stroke-width="1" stroke-dasharray="3 3" opacity="0.5" marker-end="url(#a2)"/>
+<line x1="128" y1="308" x2="196" y2="136" stroke="#888780" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.4" marker-end="url(#a4)"/>
+<line x1="72" y1="352" x2="180" y2="210" stroke="#888780" stroke-width="0.7" stroke-dasharray="2 4" opacity="0.35" marker-end="url(#a4)"/>
+<line x1="356" y1="352" x2="322" y2="210" stroke="#1D9E75" stroke-width="0.9" opacity="0.5" marker-end="url(#a1)"/>
+
+<!-- MAIN CHARACTER NODES -->
+<g class="ng" data-id="caesar"><ellipse cx="215" cy="88" rx="58" ry="30" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.5"/><text x="215" y="83" text-anchor="middle" font-size="12" font-weight="600" fill="#633806" font-family="sans-serif">Julius Caesar</text><text x="215" y="97" text-anchor="middle" font-size="10" fill="#854F0B" font-family="sans-serif">Roman Dictator</text></g>
+<g class="ng" data-id="brutus"><ellipse cx="215" cy="198" rx="52" ry="28" fill="#EEEDFE" stroke="#7F77DD" stroke-width="1.5"/><text x="215" y="193" text-anchor="middle" font-size="12" font-weight="600" fill="#3C3489" font-family="sans-serif">Marcus Brutus</text><text x="215" y="207" text-anchor="middle" font-size="10" fill="#534AB7" font-family="sans-serif">Lead Conspirator</text></g>
+<g class="ng" data-id="cassius"><ellipse cx="80" cy="195" rx="46" ry="27" fill="#FAECE7" stroke="#993C1D" stroke-width="1.5"/><text x="80" y="190" text-anchor="middle" font-size="12" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Cassius</text><text x="80" y="203" text-anchor="middle" font-size="10" fill="#71271B" font-family="sans-serif">Schemer</text></g>
+<g class="ng" data-id="antony"><ellipse cx="338" cy="195" rx="52" ry="27" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/><text x="338" y="190" text-anchor="middle" font-size="12" font-weight="600" fill="#04342C" font-family="sans-serif">Mark Antony</text><text x="338" y="203" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">Caesar's Ally</text></g>
+<g class="ng" data-id="casca"><ellipse cx="75" cy="78" rx="44" ry="26" fill="#FAECE7" stroke="#993C1D" stroke-width="1.2"/><text x="75" y="74" text-anchor="middle" font-size="11" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Casca</text><text x="75" y="87" text-anchor="middle" font-size="10" fill="#71271B" font-family="sans-serif">First to Strike</text></g>
+<g class="ng" data-id="octavius"><ellipse cx="366" cy="72" rx="50" ry="26" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.2"/><text x="366" y="67" text-anchor="middle" font-size="11" font-weight="600" fill="#04342C" font-family="sans-serif">Octavius</text><text x="366" y="80" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">Caesar's Heir</text></g>
+<g class="ng" data-id="portia"><ellipse cx="82" cy="275" rx="48" ry="26" fill="#FBEAF0" stroke="#993556" stroke-width="1.2"/><text x="82" y="270" text-anchor="middle" font-size="11" font-weight="600" fill="#4B1528" font-family="sans-serif">Portia</text><text x="82" y="283" text-anchor="middle" font-size="10" fill="#72243E" font-family="sans-serif">Brutus's Wife</text></g>
+<g class="ng" data-id="calpurnia"><ellipse cx="344" cy="275" rx="52" ry="26" fill="#FBEAF0" stroke="#993556" stroke-width="1.2"/><text x="344" y="270" text-anchor="middle" font-size="11" font-weight="600" fill="#4B1528" font-family="sans-serif">Calpurnia</text><text x="344" y="283" text-anchor="middle" font-size="10" fill="#72243E" font-family="sans-serif">Caesar's Wife</text></g>
+<g class="ng" data-id="decius"><ellipse cx="118" cy="318" rx="48" ry="25" fill="#FAECE7" stroke="#993C1D" stroke-width="1.2"/><text x="118" y="313" text-anchor="middle" font-size="11" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Decius Brutus</text><text x="118" y="326" text-anchor="middle" font-size="10" fill="#71271B" font-family="sans-serif">Flatterer / Spy</text></g>
+<g class="ng" data-id="soothsayer"><ellipse cx="310" cy="318" rx="52" ry="25" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="310" y="313" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Soothsayer</text><text x="310" y="326" text-anchor="middle" font-size="10" fill="#444441" font-family="sans-serif">Warns Caesar</text></g>
+
+<!-- MINOR CHARACTERS BAND -->
+<rect x="8" y="344" width="414" height="16" rx="3" fill="#D3D1C7" opacity="0.5"/>
+<text x="215" y="356" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif" font-weight="600">Minor / Supporting Characters</text>
+
+<!-- 7 minor nodes evenly spaced: cx = 39,101,163,225,287,349,411 rx=28 -->
+<g class="ng" data-id="cicero"><ellipse cx="39" cy="392" rx="28" ry="22" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="39" y="388" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Cicero</text><text x="39" y="400" text-anchor="middle" font-size="9" fill="#444441" font-family="sans-serif">Orator</text></g>
+<g class="ng" data-id="lepidus"><ellipse cx="101" cy="392" rx="28" ry="22" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.2"/><text x="101" y="388" text-anchor="middle" font-size="10" font-weight="600" fill="#04342C" font-family="sans-serif">Lepidus</text><text x="101" y="400" text-anchor="middle" font-size="9" fill="#085041" font-family="sans-serif">Triumvir</text></g>
+<g class="ng" data-id="flavius"><ellipse cx="163" cy="392" rx="28" ry="22" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="163" y="388" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Flavius</text><text x="163" y="400" text-anchor="middle" font-size="9" fill="#444441" font-family="sans-serif">Tribune</text></g>
+<g class="ng" data-id="marullus"><ellipse cx="225" cy="392" rx="28" ry="22" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="225" y="388" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Marullus</text><text x="225" y="400" text-anchor="middle" font-size="9" fill="#444441" font-family="sans-serif">Tribune</text></g>
+<g class="ng" data-id="metellus"><ellipse cx="287" cy="392" rx="28" ry="22" fill="#FAECE7" stroke="#993C1D" stroke-width="1.2"/><text x="287" y="387" text-anchor="middle" font-size="9" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Metellus</text><text x="287" y="398" text-anchor="middle" font-size="9" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Cimber</text></g>
+<g class="ng" data-id="cinna-c"><ellipse cx="349" cy="392" rx="28" ry="22" fill="#FAECE7" stroke="#993C1D" stroke-width="1.2"/><text x="349" y="387" text-anchor="middle" font-size="9" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Cinna</text><text x="349" y="398" text-anchor="middle" font-size="9" fill="#71271B" font-family="sans-serif">Conspirator</text></g>
+<g class="ng" data-id="cinna-p"><ellipse cx="411" cy="392" rx="28" ry="22" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="411" y="387" text-anchor="middle" font-size="9" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Cinna</text><text x="411" y="398" text-anchor="middle" font-size="9" fill="#444441" font-family="sans-serif">the Poet</text></g>
+
+<!-- RHETORICAL CONCEPTS BAND -->
+<rect x="8" y="426" width="414" height="18" rx="4" fill="#E1F5EE" opacity="0.7"/>
+<text x="215" y="439" text-anchor="middle" font-size="10" font-weight="600" fill="#0F6E56" font-family="sans-serif">Rhetorical Concepts</text>
+<line x1="152" y1="464" x2="215" y2="226" stroke="#1D9E75" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.4"/>
+<line x1="321" y1="464" x2="338" y2="222" stroke="#1D9E75" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.4"/>
+<g class="ng" data-id="rhetoric"><rect x="14" y="448" width="196" height="44" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/><text x="112" y="465" text-anchor="middle" font-size="12" font-weight="600" fill="#04342C" font-family="sans-serif">Rhetoric</text><text x="112" y="480" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">Ethos · Logos · Pathos</text></g>
+<g class="ng" data-id="fallacies"><rect x="220" y="448" width="202" height="44" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="1.5"/><text x="321" y="465" text-anchor="middle" font-size="12" font-weight="600" fill="#4A1B0C" font-family="sans-serif">Logical Fallacies</text><text x="321" y="480" text-anchor="middle" font-size="10" fill="#71271B" font-family="sans-serif">Flawed Reasoning</text></g>
+
+<!-- LITERARY CONTEXT BAND -->
+<rect x="8" y="508" width="414" height="18" rx="4" fill="#F1EFE8" opacity="0.7"/>
+<text x="215" y="521" text-anchor="middle" font-size="10" font-weight="600" fill="#444441" font-family="sans-serif">Literary &amp; Dramatic Context</text>
+<g class="ng" data-id="proseverses"><rect x="14" y="532" width="196" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="112" y="549" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Prose vs. Verse</text><text x="112" y="563" text-anchor="middle" font-size="10" fill="#444441" font-family="sans-serif">Register &amp; Class</text></g>
+<g class="ng" data-id="elizabethan"><rect x="220" y="532" width="202" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.2"/><text x="321" y="549" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A" font-family="sans-serif">Elizabethan Era</text><text x="321" y="563" text-anchor="middle" font-size="10" fill="#444441" font-family="sans-serif">Shakespeare's Time</text></g>
+
+<!-- HISTORICAL CONTEXT BAND -->
+<rect x="8" y="592" width="414" height="18" rx="4" fill="#FAC775" opacity="0.55"/>
+<text x="215" y="605" text-anchor="middle" font-size="10" font-weight="600" fill="#633806" font-family="sans-serif">Historical Context</text>
+
+<!-- historical dashed links up to characters -->
+<line x1="73" y1="614" x2="185" y2="118" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.32"/>
+<line x1="209" y1="614" x2="215" y2="118" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.32"/>
+<line x1="351" y1="614" x2="102" y2="301" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.32"/>
+<line x1="108" y1="678" x2="215" y2="118" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.28"/>
+<line x1="318" y1="678" x2="215" y2="118" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.25"/>
+
+<!-- ROW 1: Plutarch (x=8,w=130), Pompey (x=144,w=130), Cato (x=280,w=142) -->
+<g class="ng" data-id="plutarch">
+  <rect x="8" y="614" width="130" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.3"/>
+  <text x="73" y="634" text-anchor="middle" font-size="11" font-weight="600" fill="#633806" font-family="sans-serif">Plutarch</text>
+  <text x="73" y="648" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Shakespeare's Source</text>
+  <text x="73" y="661" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Greek Biographer</text>
+</g>
+<g class="ng" data-id="pompey">
+  <rect x="144" y="614" width="130" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.3"/>
+  <text x="209" y="634" text-anchor="middle" font-size="11" font-weight="600" fill="#633806" font-family="sans-serif">Pompey</text>
+  <text x="209" y="648" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Caesar's Rival</text>
+  <text x="209" y="661" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Civil War Opponent</text>
+</g>
+<g class="ng" data-id="cato">
+  <rect x="280" y="614" width="142" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.3"/>
+  <text x="351" y="634" text-anchor="middle" font-size="11" font-weight="600" fill="#633806" font-family="sans-serif">Cato the Younger</text>
+  <text x="351" y="648" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Enemy of Caesar</text>
+  <text x="351" y="661" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Father of Portia</text>
+</g>
+
+<!-- ROW 2: Roman Republic (x=8,w=200), Lupercal (x=214,w=208) -->
+<g class="ng" data-id="republic">
+  <rect x="8" y="678" width="200" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.3"/>
+  <text x="108" y="698" text-anchor="middle" font-size="11" font-weight="600" fill="#633806" font-family="sans-serif">Roman Republic</text>
+  <text x="108" y="712" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Government + Plebeians</text>
+</g>
+<g class="ng" data-id="lupercal">
+  <rect x="214" y="678" width="208" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1.3"/>
+  <text x="318" y="698" text-anchor="middle" font-size="11" font-weight="600" fill="#633806" font-family="sans-serif">The Lupercal</text>
+  <text x="318" y="712" text-anchor="middle" font-size="9" fill="#854F0B" font-family="sans-serif">Festival + Crown Scene</text>
+</g>
+</svg>
+</div>
+
+<div class="panel" id="panel">
+  <div class="empty" id="empty">Click any node<br>to read its profile</div>
+
+  <!-- ===== CHARACTERS ===== -->
+  <div class="pc" id="pc-caesar">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Roman Dictator</span>
+    <h3>Julius Caesar</h3><p class="tagline">"Et tu, Brute?"</p>
+    <p>Rome's most powerful man — and he knows it. Caesar has won wars, crossed the Rubicon against direct orders, and bent the Republic to his will. By the time the play opens, people are literally throwing roses in his path and offering him a crown. He is, by any measure, extraordinary.</p>
+    <p>Which makes it all the more fascinating that Shakespeare refuses to let him be simply great. Caesar is also vain, superstitious, and dangerously easy to flatter. He speaks about himself in the third person ("Caesar shall forth") like he's already a statue. And the play is littered with warnings he ignores.</p>
+    <p>Count them: the Soothsayer tells him to his face — beware the Ides of March. Calpurnia dreams of his statue running with blood and begs him not to leave. Then, on the way to the Senate, a teacher named Artemidorus presses a letter into his hands — a letter that names every single conspirator and begs him to read it for his own safety. Caesar waves it off. He'll deal with his personal concerns last. He never gets to them. Three warnings. Three doors. He walks past every one.</p>
+    <p>His death should end the play. Instead, it starts the real one. Dead Caesar turns out to be more dangerous than live Caesar ever was.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#E1F5EE;border:1px solid #0F6E56"></div><span><strong>Antony</strong> — The friend who will burn Rome down to avenge him</span></div>
+      <div class="ci"><div class="cd" style="background:#EEEDFE;border:1px solid #7F77DD"></div><span><strong>Brutus</strong> — The friend whose betrayal is the play's gut-punch</span></div>
+      <div class="ci"><div class="cd" style="background:#FBEAF0;border:1px solid #993556"></div><span><strong>Calpurnia</strong> — Wife who sees exactly what's coming and can't stop it</span></div>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Pompey</strong> — The rival he crushed, whose ghost haunts the play's politics</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clues 1 Across, 14 Down, 15 Down, 21 Across, and 29 Down</div>
+  </div>
+
+  <div class="pc" id="pc-brutus">
+    <span class="badge" style="background:#EEEDFE;color:#3C3489">Lead Conspirator</span>
+    <h3>Marcus Brutus</h3><p class="tagline">"Not that I loved Caesar less, but that I loved Rome more."</p>
+    <p>Here is a man so convinced of his own honor that he hands his enemy the knife. Brutus is the conspiracy's moral cover — without his name attached, the assassination is just murder. With him, it's a patriotic act. Cassius knows this. The entire plot depends on it.</p>
+    <p>The devastating thing about Brutus is that he's not wrong about his own values — he genuinely loves Rome, genuinely believes Caesar is dangerous, genuinely thinks he's doing the right thing. He's just catastrophically bad at politics. Every single noble impulse he has leads directly to his destruction. He dies on his own sword, and his enemy Antony calls him the noblest Roman of them all. Tragedy doesn't get more tragic than that.</p>
+    <p><strong>Rhetorical Style:</strong> Brutus speaks in <em>logos</em> — cold, logical argument. He's basically writing a thesis statement at a funeral. The crowd listens politely and then Antony gets up and makes them cry.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Cassius</strong> — Brother-in-law who strings him like an instrument</span></div>
+      <div class="ci"><div class="cd" style="background:#FBEAF0;border:1px solid #993556"></div><span><strong>Portia</strong> — The wife he shuts out, who dies for his secrets</span></div>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Cato</strong> — Father-in-law and his impossible standard of virtue</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 26 Down</div>
+  </div>
+
+  <div class="pc" id="pc-cassius">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Conspirator</span>
+    <h3>Cassius</h3><p class="tagline">"The fault, dear Brutus, is not in our stars, but in ourselves."</p>
+    <p>Cassius is the one who actually makes this whole thing happen — and he does it almost entirely through manipulation. He once dove into a flooded river to save Caesar from drowning. Caesar got the glory. Cassius got a cramp. That's the kind of resentment that doesn't go away.</p>
+    <p>So he builds a conspiracy. He writes fake letters from "the Roman public" and slips them through Brutus's window. He is relentless, calculating, and almost always right. He wants Antony dead. He wants to avoid Philippi. He is overruled every time by Brutus, and every time he's overruled, the conspiracy comes one step closer to disaster.</p>
+    <p>What saves Cassius from being a pure villain is Act IV — a raw, exhausted argument with Brutus where both men briefly stop performing and just talk. Two people who are probably about to die, fighting about whether any of this was worth it. Shakespeare doesn't let you hate Cassius after that scene. He just lets you watch him lose.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#EEEDFE;border:1px solid #7F77DD"></div><span><strong>Brutus</strong> — The conscience he exploits and, genuinely, his closest friend</span></div>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — The man he resents, fears, and can't stop thinking about</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 20 Down</div>
+  </div>
+
+  <div class="pc" id="pc-antony">
+    <span class="badge" style="background:#E1F5EE;color:#04342C">Caesar's Ally</span>
+    <h3>Mark Antony</h3><p class="tagline">"Friends, Romans, countrymen, lend me your ears."</p>
+    <p>Antony is the most dangerous character in the play — and the conspirators spend most of Act II deciding he's not worth worrying about. He's just a party guy, they say. He'll fall in line. This is perhaps the single most catastrophic miscalculation in all of Shakespeare.</p>
+    <p>Watch what Antony actually does: he shakes every conspirator's bloody hand, smiles, asks for five minutes at the funeral, and promises to say nothing bad about them. Then he holds up Caesar's stabbed body, reads out Caesar's will leaving money to every citizen, and within ten minutes has the entire city screaming for blood. He never once says "the conspirators are evil." He just keeps calling Brutus "an honorable man" — over and over, with just enough irony that the crowd figures it out themselves. That's not grief. That's genius.</p>
+    <p><strong>Rhetorical Style:</strong> Pure <em>pathos</em>, deployed with surgical precision. He doesn't argue — he makes you feel. By the time he's done, logic is completely irrelevant.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — The friend whose murder he turns into a weapon</span></div>
+      <div class="ci"><div class="cd" style="background:#E1F5EE;border:1px solid #0F6E56"></div><span><strong>Octavius</strong> — His co-ruler, who is already quietly outmaneuvering him</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 2 Down</div>
+  </div>
+
+  <div class="pc" id="pc-casca">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Conspirator</span>
+    <h3>Casca</h3><p class="tagline">"Speak, hands, for me!"</p>
+    <p>Casca is the cynic of the group — the guy in the back of the room rolling his eyes at everything. When Caesar is offered the crown and keeps pretending to refuse it while clearly wanting it, Casca gives the most sardonic play-by-play in the entire script. Zero patience for political theater.</p>
+    <p>That bluntness is also why he's first to stab Caesar. No monologue, no hesitation. Just: "Speak, hands, for me!" — meaning, I have nothing more to say, let the knives do the talking. Chilling precisely because it comes from someone so clearly done with all the speeches.</p>
+    <p><strong>Worth Noting:</strong> Casca speaks in plain <em>prose</em> while the other nobles use verse — a deliberate signal that he has no time for poetic performance.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Cassius</strong> — The one who recruits him, correctly reading his anger</span></div>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — Delivers the first blow, which makes everything that follows possible</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 6 Down</div>
+  </div>
+
+  <div class="pc" id="pc-octavius">
+    <span class="badge" style="background:#E1F5EE;color:#04342C">Caesar's Heir</span>
+    <h3>Octavius Caesar</h3><p class="tagline">"I was not born to die on Brutus's sword."</p>
+    <p>Octavius barely says a word in this play — and he doesn't need to. He arrives after the assassination, quietly refuses to follow Antony's battle orders at Philippi, and is proven correct. There's a chill to him that Antony never quite has. Where Antony runs hot, Octavius is ice.</p>
+    <p>History tells us what happens next: Octavius eventually outmaneuvers Antony, takes sole control of Rome, and becomes Augustus Caesar — the first Emperor. Shakespeare's audience knew this. So every scene where Octavius quietly asserts himself feels like a slow-burn spoiler for the end of the Republic. The future is already walking around in Act V, twenty years old and completely unrattled.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — The great-uncle whose name he inherits and surpasses</span></div>
+      <div class="ci"><div class="cd" style="background:#E1F5EE;border:1px solid #0F6E56"></div><span><strong>Antony</strong> — His ally today, his rival tomorrow</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 15 Across</div>
+  </div>
+
+  <div class="pc" id="pc-portia">
+    <span class="badge" style="background:#FBEAF0;color:#4B1528">Spouse</span>
+    <h3>Portia</h3><p class="tagline">"I have a man's mind, but a woman's might."</p>
+    <p>Portia might be the most heartbreaking figure in the play — not because something dramatic happens to her, but because of what doesn't. She is sharp, courageous, deeply perceptive, and completely shut out. She wounds herself in the leg to prove she can keep a secret. She asks to be treated as a partner, not just a wife. Brutus agrees — and then tells her nothing.</p>
+    <p>She dies swallowing hot coals — not killed by a conspirator or a soldier, but destroyed from the inside out by anxiety over secrets she was never fully trusted with. A casualty of Brutus's honor — which, like everything else about Brutus, kills the people around him while trying to be noble.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#EEEDFE;border:1px solid #7F77DD"></div><span><strong>Brutus</strong> — The husband who respects her and still keeps her in the dark</span></div>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Cato</strong> — Her father, whose impossible standard of courage she ultimately meets</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 25 Across</div>
+  </div>
+
+  <div class="pc" id="pc-calpurnia">
+    <span class="badge" style="background:#FBEAF0;color:#4B1528">Spouse</span>
+    <h3>Calpurnia</h3><p class="tagline">"When beggars die, there are no comets seen."</p>
+    <p>Calpurnia has one scene that matters, and in it she is completely right about everything. Rome goes haywire the night before the Ides — storms, lions in the streets, graves opening. She has a nightmare about Caesar's statue running with blood and begs him not to go. Caesar — performing invincibility for so long he's started to believe it — initially agrees to stay home.</p>
+    <p>Then Decius Brutus shows up, re-spins the dream as a symbol of Caesar's glory, and suggests the Senate might laugh at him for being scared of his wife's nightmares. Caesar leaves. He is dead within the hour. Calpurnia is the one moment Caesar could have chosen differently — the door he walked past.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — The husband she cannot protect from himself</span></div>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Decius</strong> — The man who undoes her in four minutes flat</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 29 Down</div>
+  </div>
+
+  <div class="pc" id="pc-decius">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Conspirator</span>
+    <h3>Decius Brutus</h3><p class="tagline">"This dream is all amiss interpreted."</p>
+    <p>Decius doesn't get many lines, but he might be the most coldly effective character in the play. His entire job is to make sure Caesar shows up to his own assassination — and he pulls it off flawlessly with nothing but words and a good read on Caesar's ego.</p>
+    <p>He doesn't argue with Calpurnia's dream. He reinterprets it — turning blood into nourishment Rome draws from Caesar's greatness. Then he escalates: the Senate is offering Caesar the crown today. Wouldn't people wonder why he didn't come? Caesar, who has compared himself to the North Star for immovability, cannot handle the idea of looking weak. He goes. Decius is a study in what happens when someone applies flattery and false authority with zero scruples and perfect timing.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — Reads him like a manual and exploits every page</span></div>
+      <div class="ci"><div class="cd" style="background:#FBEAF0;border:1px solid #993556"></div><span><strong>Calpurnia</strong> — Casually dismantles everything she spent the morning building</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 5 Down</div>
+  </div>
+
+  <div class="pc" id="pc-soothsayer">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Prophet</span>
+    <h3>The Soothsayer</h3><p class="tagline">"Beware the Ides of March."</p>
+    <p>Five words. That's almost all he gets. Caesar hears them, calls the Soothsayer a dreamer, and walks away. And Shakespeare's audience — who already know exactly what's about to happen — sits there watching a man stroll cheerfully toward his murder.</p>
+    <p>The Soothsayer reappears on the morning of March 15th. Caesar says, with enormous confidence: "The Ides of March are come." The Soothsayer replies: "Ay, Caesar — but not gone." Caesar laughs it off and heads into the Senate. He is the play's representative of fate — the idea that some things are going to happen regardless of what anyone does or says. Everyone else is busy making decisions and giving speeches. The Soothsayer already knows how it ends.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 23 Down</div>
+  </div>
+
+  <div class="pc" id="pc-cicero">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Senator / Orator</span>
+    <h3>Cicero</h3><p class="tagline">"Indeed, it is a strange-disposed time."</p>
+    <p>Cicero is the greatest living orator in the Roman world — a man whose actual speeches people still study 2,000 years later. He gets about two lines in this play. Why? Because Brutus decides the conspiracy doesn't need him. Cicero, Brutus explains, will never follow another man's lead.</p>
+    <p>This is one of Brutus's many underrated disasters. Cicero could have been the conspiracy's public voice — the credibility, the eloquence, the institutional weight. Instead he's excluded, the conspiracy gets Brutus's logic-heavy funeral speech, and Antony runs circles around all of them. When Shakespeare puts the world's greatest orator in a play about the power of speech and then sidelines him entirely — that's a deliberate choice worth thinking about.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 3 Down</div>
+  </div>
+
+  <div class="pc" id="pc-lepidus">
+    <span class="badge" style="background:#E1F5EE;color:#04342C">Triumvir</span>
+    <h3>Lepidus</h3><p class="tagline">"This is a slight unmeritable man."</p>
+    <p>Lepidus is the third triumvir — the guy Antony and Octavius let sit at the table. And in the very scene where he's admitted to their inner circle, Antony turns to Octavius the moment Lepidus leaves and says, essentially: he's useful for now, but he's an errand boy. We'll cut him loose when we don't need him anymore.</p>
+    <p>It's a startling moment, because we've just watched Antony grieve Caesar so movingly. Here he is treating a political ally like a tool to be discarded — a glimpse behind the curtain at the real Antony. History confirms: Lepidus was eventually stripped of power and spent his remaining years under house arrest.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 8 Down</div>
+  </div>
+
+  <div class="pc" id="pc-flavius">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Tribune</span>
+    <h3>Flavius</h3><p class="tagline">"Hence! home, you idle creatures, get you home!"</p>
+    <p>Flavius opens the entire play by yelling at Romans for celebrating Caesar. His anger isn't personal — it's that these same people were cheering for Pompey just a few years ago, and now they've completely forgotten him. The crowd is fickle. The crowd is dangerous. Flavius knows it.</p>
+    <p>He tears down Caesar's decorations, gets reported, and disappears — presumably silenced. Barely in the story, yet his opening scene sets up everything: mob mentality, political theater, the way power can flip a crowd in an afternoon. Antony will later prove his point by doing exactly what Flavius feared.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 18 Down</div>
+  </div>
+
+  <div class="pc" id="pc-marullus">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Tribune</span>
+    <h3>Marullus</h3><p class="tagline">"You blocks, you stones, you worse than senseless things!"</p>
+    <p>Marullus is Flavius's partner, and his speech to the crowd — calling them "blocks," "stones," "worse than senseless things" for forgetting Pompey — is remarkable for how thoroughly it fails. He appeals to their memory, their shame, their loyalty. He's eloquent. He's passionate. The crowd disperses, slightly shamed.</p>
+    <p>And then Antony does essentially the same thing at the funeral and they set the city on fire. Same audience. Same emotional levers. Completely different outcome. Marullus lectures; Antony seduces. Marullus is the play's first lesson in how good rhetoric can still fail if you don't truly know your audience.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 10 Across</div>
+  </div>
+
+  <div class="pc" id="pc-metellus">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Conspirator</span>
+    <h3>Metellus Cimber</h3><p class="tagline">"Most high, most mighty, and most puissant Caesar..."</p>
+    <p>Metellus Cimber has one job on the Ides of March, and he executes it perfectly. He is the distraction. While the other conspirators quietly position themselves around Caesar's chair in the Senate, Metellus steps forward and makes a dramatic public petition — begging Caesar to repeal the banishment of his brother. It's entirely staged. His brother is irrelevant. The petition is theater designed to keep Caesar's attention fixed forward while the blades come out from behind.</p>
+    <p>Watch how the scene unfolds: Metellus kneels and flatters Caesar with extravagant praise. Caesar delivers a long, self-congratulatory speech about how absolutely immovable and constant he is — and then Casca, who is standing directly behind him, stabs him in the neck. Metellus Cimber's petition is the hinge the whole assassination turns on. It's one of Shakespeare's most coldly choreographed scenes, and Metellus is the one who opens the door.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — The target of his theatrical petition</span></div>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Casca</strong> — Steps in to strike the moment Metellus has Caesar distracted</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> This character isn't named in the crossword — but knowing his role helps you understand how the assassination scene actually worked</div>
+  </div>
+
+  <div class="pc" id="pc-cinna-c">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Conspirator</span>
+    <h3>Cinna the Conspirator</h3><p class="tagline">"Don't confuse me with the other one."</p>
+    <p>Cinna the Conspirator is one of the plotters present at the assassination — a senator who joins the conspiracy and helps carry out the killing on the Ides of March. He's not a major figure in the plot's planning; he's more of an executor, one of the crowd of hands that falls on Caesar in the Senate.</p>
+    <p>His real dramatic significance isn't what he does — it's his name. Because there is another Cinna in Rome. A poet. An entirely innocent man. And when the mob pours out of the Forum after Antony's funeral speech, boiling with rage and looking for anyone connected to the conspiracy, they find Cinna the Poet instead. The name is the same. That's enough. The confusion between these two men is the play's most economical horror — it takes about ten lines and says everything Shakespeare wants to say about what happens when a crowd stops asking questions.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#F1EFE8;border:1px solid #5F5E5A"></div><span><strong>Cinna the Poet</strong> — Shares his name. That shared name becomes a death sentence.</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 6 Across</div>
+  </div>
+
+  <div class="pc" id="pc-cinna-p">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Innocent Bystander</span>
+    <h3>Cinna the Poet</h3><p class="tagline">"I am Cinna the poet! I am not Cinna the conspirator!"</p>
+    <p>Cinna the Poet is arguably the most innocent person in the entire play — a man who had nothing to do with the assassination, nothing to do with politics, nothing to do with anything except being unlucky enough to share a name with one of the conspirators.</p>
+    <p>He appears in Act III, Scene 3, just after Antony's funeral speech has turned the city into a mob. He was on his way to Caesar's funeral himself — as a mourner. The crowd surrounds him, demands to know his name, and when he says "Cinna," they go for him. He screams that he is Cinna the <em>poet</em>, not Cinna the conspirator. The crowd's response? "Tear him for his bad verses." It's a sick joke. They know he's the wrong man. They kill him anyway.</p>
+    <p>This scene is only about a page long. It might be the most important page in the play. It's the direct consequence of Antony's pathos — the fire that doesn't ask what it's burning. Cinna the Poet is what unchecked rhetoric actually costs.</p>
+    <div class="conns"><h4>Key Relationships</h4>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Cinna the Conspirator</strong> — Shares his name. Nothing else. That's the whole tragedy.</span></div>
+      <div class="ci"><div class="cd" style="background:#E1F5EE;border:1px solid #0F6E56"></div><span><strong>Mark Antony</strong> — Never meets him. Indirectly causes his death.</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Character in Clue 6 Across</div>
+  </div>
+
+  <!-- ===== RHETORICAL CONCEPTS ===== -->
+  <div class="pc" id="pc-rhetoric">
+    <span class="badge" style="background:#E1F5EE;color:#04342C">Rhetorical Concepts</span>
+    <h3>Rhetoric — The Art and Weapon of Persuasive Language</h3><p class="tagline">"Two speeches. Same crowd. Completely opposite outcomes."</p>
+    <p>Rhetoric is the formal study of how to use language to persuade. In ancient Rome it wasn't an elective — it was how you built a career, won a court case, and survived in the Senate. Julius Caesar is essentially a play about what happens when rhetoric is used without restraint. The three classical pillars are below.</p>
+    <div class="sub-block"><h4>Ethos — Appeal to Authority / Character</h4><p>Ethos is when a speaker's credibility does the persuading. Brutus's entire funeral speech runs on ethos: he doesn't really argue that Caesar was dangerous, he just says it, and the crowd believes him because he's Brutus — Rome's most honorable man. His reputation <em>is</em> the argument. The terrifying implication: ethos can be borrowed, and spent. Once Antony is done, Brutus's credibility is gone forever.</p></div>
+    <div class="sub-block"><h4>Logos — Appeal to Reason</h4><p>Logos is persuasion through logic, evidence, and rational argument. Brutus's speech is logos in action: structured, civic-minded, almost like a legal brief. It makes sense. The crowd accepts it. Then Antony steps up with no logic whatsoever — just tears and a dead body and a will leaving money to every Roman citizen — and within ten minutes, logos is completely irrelevant. The play's hard lesson: reason works when people are calm. In a crisis, emotion wins every time.</p></div>
+    <div class="sub-block"><h4>Pathos — Appeal to Emotion</h4><p>Pathos is persuasion through emotion — making the audience feel something so intensely that the feeling itself becomes the argument. Antony's funeral speech is the masterclass. The crowd goes from approving to murderous in minutes. He never once calls the conspirators murderers. He doesn't have to. Shakespeare doesn't fully celebrate it though — the riot that follows kills Cinna the Poet, an entirely innocent man who just has the wrong name. Pathos without guardrails is a fire that doesn't ask what it's burning.</p></div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find These Concepts in Clues 8 Across, 13 Across, 22 Down, and 27 Across</div>
+  </div>
+
+  <div class="pc" id="pc-fallacies">
+    <span class="badge" style="background:#FAECE7;color:#4A1B0C">Rhetorical Concept</span>
+    <h3>Logical Fallacies — When an Argument Sounds Right but Isn't</h3><p class="tagline">The shortcuts that bypass critical thinking — and win anyway.</p>
+    <p>A logical fallacy is a flaw in reasoning — a shortcut that <em>feels</em> like logic but doesn't hold up. The tricky thing is that fallacies are often <em>more</em> persuasive than solid arguments, because they're designed to bypass critical thinking. Julius Caesar is basically a catalog of them in action.</p>
+    <div class="sub-block"><h4>Ad Hominem — Attack the Person, Not the Argument</h4><p>Instead of dismantling someone's case, you go after their character. Cassius doesn't argue that Caesar's policies are dangerous — he tells Brutus about the time Caesar nearly drowned, about his epileptic fits, about how strange it is that this physically ordinary man now rules the world. It's not a policy critique. It's a smear. And it works.</p></div>
+    <div class="sub-block"><h4>False Dilemma — Only Two Choices When More Exist</h4><p>The conspiracy operates on an unspoken false dilemma: Caesar must be killed, or Rome falls to tyranny. Nobody seriously asks whether there are other options — exile, legal limits on his power, waiting to see what he actually does with the crown. Brutus never considers them. The binary framing does the thinking for him.</p></div>
+    <div class="sub-block"><h4>Appeal to False Authority — "I'm Important, Therefore I'm Right"</h4><p>Caesar's most telling line might be "I am Caesar" — spoken as though his name settles any argument. He's not providing evidence; he's invoking his own status as proof. Decius uses the same trick in reverse: the Senate expects you, Caesar. Are you really going to let your wife's dreams embarrass you in front of Rome's greatest men?</p></div>
+    <div class="sub-block"><h4>Bandwagon — Everyone's Doing It, So It Must Be Right</h4><p>Watch the Roman crowd: they celebrate Caesar's triumph, nod along to Brutus's murder justification, then riot at Antony's funeral speech — each time moving as a single emotional unit. Antony doesn't just exploit this; he engineers it. Get a few people crying, a few voices shouting, and the rest follow. Cinna the Poet pays the price.</p></div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Concept in Clue 16 Across</div>
+  </div>
+
+  <!-- ===== LITERARY CONTEXT ===== -->
+  <div class="pc" id="pc-proseverses">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Literary Term</span>
+    <h3>Prose vs. Verse — How Shakespeare Signals Who Someone Really Is</h3><p class="tagline">The form is part of the argument.</p>
+    <p>In Shakespeare's world, how you speak tells the audience who you are before you've said anything important. Verse — specifically iambic pentameter, ten syllables per line with a da-DUM da-DUM rhythm — is the language of nobles, high emotion, and formal occasions. Prose is the language of common people, casual moments, or characters deliberately stepping outside expected register.</p>
+    <p>This matters in Julius Caesar in specific, pointed ways. Casca switches to blunt prose when recounting the crown scene — saying in effect: I refuse to perform dignity for this. Brutus gives his funeral speech in prose unusually, attempting to meet the people where they are. Antony speaks in verse throughout — which paradoxically makes him sound more elevated and trustworthy to the crowd, even as he's manipulating them. The form is part of the argument.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Term in Clue 7 Down</div>
+  </div>
+
+  <div class="pc" id="pc-elizabethan">
+    <span class="badge" style="background:#F1EFE8;color:#2C2C2A">Literary Context</span>
+    <h3>The Elizabethan Era — Ancient Rome as a Mirror for 1599 England</h3><p class="tagline">Shakespeare couldn't write about killing a queen. He could write about killing Caesar.</p>
+    <p>Shakespeare wrote Julius Caesar around 1599, and his audience wasn't just watching a history lesson — they were watching a pointed political drama about their own world. Queen Elizabeth I was aging, had no heir, and the question of what happened to England when she died was a genuine source of national anxiety. The idea of a single leader accumulating too much power, of political assassination, of what happens to a Republic when its institutions fail — none of this was abstract.</p>
+    <p>Setting the play in Rome gave Shakespeare cover. You couldn't write a play about killing a queen. But a play about killing Julius Caesar? That's just history. Except it wasn't just history, and everyone in the audience knew it. That tension — between what the play says and what it means — is part of what makes it feel alive 400 years later.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Context in Clue 4 Across</div>
+  </div>
+
+  <!-- ===== HISTORICAL CONTEXT ===== -->
+  <div class="pc" id="pc-plutarch">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Historical Context</span>
+    <h3>Plutarch — The Source Shakespeare Raided and Transformed</h3><p class="tagline">Same facts. Completely different shape.</p>
+    <p>Plutarch was a Greek writer (yes, Greek — not Roman, despite what one crossword clue implies) who lived about 150 years after the events of this play and wrote <em>Parallel Lives</em> — paired biographies comparing famous Greeks and Romans. Shakespeare got almost everything from Plutarch's lives of Caesar, Brutus, and Antony, filtered through Thomas North's 1579 English translation.</p>
+    <p>Some of Shakespeare's most famous lines are nearly verbatim from North's Plutarch. Others he invented entirely. The interesting exercise is figuring out which is which — because what Shakespeare chose to keep, what he changed, and what he added tells you exactly what he was trying to do dramatically. Plutarch was writing biography. Shakespeare was writing tragedy.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Figure in Clue 30 Across — and Note the Small Inaccuracy in How the Clue Describes Him</div>
+  </div>
+
+  <div class="pc" id="pc-pompey">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Historical Context</span>
+    <h3>Pompey the Great — The Ghost Haunting Caesar's Triumph</h3><p class="tagline">Caesar dies at the foot of the man he destroyed.</p>
+    <p>Pompey is dead before the play even starts, but he's everywhere in it. The opening scene exists entirely because the Roman crowd is celebrating Caesar's defeat of Pompey's sons — and Flavius and Marullus are furious, because these same people were cheering for Pompey just a few years ago. This crowd forgets fast. That's the first thing Shakespeare wants you to know.</p>
+    <p>Pompey was Caesar's co-ruler in the First Triumvirate and eventually his chief rival. Their conflict collapsed into a full civil war. Caesar won. Pompey fled to Egypt, where he was assassinated. And then — the play's great irony — Caesar falls at the foot of Pompey's statue in the Senate. The man he destroyed is the last thing Caesar sees. Shakespeare did not have to set it up that way. He chose to.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Figure in Clues 14 Down and 12 Across</div>
+  </div>
+
+  <div class="pc" id="pc-cato">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Historical Context</span>
+    <h3>Cato the Younger — The Standard No One Can Live Up To</h3><p class="tagline">He never appears. He doesn't need to.</p>
+    <p>Cato the Younger never appears in the play. He doesn't need to — his presence is felt through everyone who loved him and everyone who feared him. He was Rome's most uncompromising Stoic philosopher-senator: a man who treated integrity as non-negotiable and Caesar's rise as an existential threat to the Republic. When Caesar finally won the civil war, Cato's response was to read Plato's dialogue on the immortality of the soul, lie down, and stab himself. He reportedly tore his own wound back open when a doctor tried to stitch it. He was not going to live under Caesar's rule. Full stop.</p>
+    <p>That's the father Portia grew up with. That's the father-in-law Brutus is trying to honor. Cato represents a standard of absolute principle that the play holds up and then quietly breaks — because Brutus has Cato's values but not Cato's nerve, and Portia has Cato's courage but not Cato's power.</p>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Figure in Clue 1 Across</div>
+  </div>
+
+  <div class="pc" id="pc-republic">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Historical Context</span>
+    <h3>The Roman Republic — What Everyone Claims to Fight For and Destroys</h3><p class="tagline">The Republic doesn't end with Caesar's ambition. It ends with his murder.</p>
+    <p>The Roman Republic had been running for about 500 years when Caesar showed up. It was built on a simple idea: power should never belong to one person. Distribute it across elected consuls, senators, and tribunes, give each group a check on the others, and you avoid the tyranny of kings. Rome had thrown out its last king in 509 BC and was not going back.</p>
+    <p>Except it did go back. The conspirators kill Caesar to prevent one-man rule. The assassination triggers a power vacuum, a civil war, and the rise of the Roman Empire under Augustus Caesar — exactly the one-man rule they stabbed their friend twenty-three times to prevent. Brutus is not the savior of Rome. He is, accidentally, the last nail in its coffin.</p>
+    <div class="sub-block">
+      <h4>Plebeians — The Crowd That Decides Everything</h4>
+      <p>Plebeians are the common citizens of Rome — the commoners, the working people, the mob. They are not named characters, but they are arguably the most powerful force in the play. Every major speech is aimed at them. Every political calculation involves them. They are the audience Brutus miscalculates and Antony masterminds.</p>
+      <p>Watch how they move: they cheer Caesar's triumph at the Lupercal. They listen to Brutus and nod. They listen to Antony and riot. They tear Cinna the Poet to pieces because he has the wrong name. The plebeians are a weather vane that spins with whoever just spoke to them most powerfully. They are neither villains nor victims. They are the consequence of rhetoric, for better and for worse.</p>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find These Terms in Clues 14 Across and 28 Across</div>
+  </div>
+
+  <div class="pc" id="pc-lupercal">
+    <span class="badge" style="background:#FAEEDA;color:#633806">Historical Context</span>
+    <h3>The Lupercal — Rome's Wildest Holiday</h3><p class="tagline">The play opens mid-festival. That's not an accident.</p>
+    <p>The Lupercal was one of ancient Rome's oldest and strangest festivals — held every February 15th in honor of Lupercus, the god of shepherds and fertility. The celebration involved priests called Luperci running nearly naked through the streets of Rome, striking people they passed with strips of goatskin called <em>februa</em>. Women would deliberately place themselves in the runners' path — being struck was believed to ensure fertility and easy childbirth. It was rowdy, ancient, and very un-Roman in its lack of decorum.</p>
+    <p>Shakespeare opens the play on the Lupercal deliberately. It's the perfect setting for what he wants to show: crowds in the streets, political theater in public, the tension between Rome's civilized self-image and its chaotic, emotional underbelly. Flavius and Marullus are furious that citizens have abandoned their work to celebrate — but the crowd isn't really celebrating the festival. They're celebrating Caesar. The Lupercal is just the occasion he's hijacked.</p>
+    <p>Most importantly, it's during the Lupercal that Antony — running as one of the priests — offers Caesar the crown three times in front of the crowd. Caesar refuses each time, but not very convincingly. Casca's sardonic account of this scene is the conspiracy's first real spark: if Caesar wants a crown this badly, Cassius argues, Rome is already in danger. The Lupercal is where the plot begins to crystallize.</p>
+    <div class="conns"><h4>Key Connections</h4>
+      <div class="ci"><div class="cd" style="background:#FAEEDA;border:1px solid #BA7517"></div><span><strong>Caesar</strong> — Uses the festival as political theater; the crown-offering happens here</span></div>
+      <div class="ci"><div class="cd" style="background:#E1F5EE;border:1px solid #0F6E56"></div><span><strong>Antony</strong> — Runs as a Lupercal priest; offers Caesar the crown</span></div>
+      <div class="ci"><div class="cd" style="background:#FAECE7;border:1px solid #993C1D"></div><span><strong>Casca</strong> — His sardonic account of the crown scene lights the conspiratorial fuse</span></div>
+    </div>
+    <div class="cw-hint">&#9998; <span>Crossword:</span> Find This Festival in Clue 19 Across</div>
+  </div>
+
+</div>
+</div>
+
+<div class="legend">
+  <div class="li"><div class="ld" style="background:#EF9F27"></div><span>Caesar</span></div>
+  <div class="li"><div class="ld" style="background:#7F77DD"></div><span>Conspirators</span></div>
+  <div class="li"><div class="ld" style="background:#1D9E75"></div><span>Caesar's Allies</span></div>
+  <div class="li"><div class="ld" style="background:#D4537E"></div><span>Spouses</span></div>
+  <div class="li"><div class="ld" style="background:#888780"></div><span>Others</span></div>
+  <div class="li"><div class="ld" style="background:#1D9E75;border-radius:2px"></div><span>Rhetoric</span></div>
+  <div class="li"><div class="ld" style="background:#5F5E5A;border-radius:2px"></div><span>Literary Context</span></div>
+  <div class="li"><div class="ld" style="background:#BA7517;border-radius:2px"></div><span>Historical Context</span></div>
+  <div class="li" style="margin-left:6px"><div class="ll" style="background:#1D9E75"></div><span>Loyalty</span></div>
+  <div class="li"><div class="ll" style="background:repeating-linear-gradient(90deg,#D85A30 0,#D85A30 4px,transparent 4px,transparent 7px)"></div><span>Betrayal</span></div>
+  <div class="li"><div class="ll" style="background:repeating-linear-gradient(90deg,#BA7517 0,#BA7517 3px,transparent 3px,transparent 6px)"></div><span>Historical Link</span></div>
+</div>
+
+<script>
+const nodes = document.querySelectorAll('.ng');
+const empty = document.getElementById('empty');
+let active = null;
+nodes.forEach(n => {
+  n.addEventListener('click', () => {
+    const id = n.dataset.id;
+    if (active === id) {
+      document.querySelectorAll('.pc').forEach(p => p.classList.remove('on'));
+      empty.style.display = '';
+      nodes.forEach(x => x.style.opacity = '1');
+      active = null;
+      return;
+    }
+    document.querySelectorAll('.pc').forEach(p => p.classList.remove('on'));
+    const pc = document.getElementById('pc-' + id);
+    if (pc) { pc.classList.add('on'); empty.style.display = 'none'; }
+    nodes.forEach(x => x.style.opacity = x.dataset.id === id ? '1' : '0.45');
+    active = id;
+  });
+});
+</script>
+</body>
+</html>
